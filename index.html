@@ -7,8 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Montserrat:wght@200&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    /*Body*/
     body {
       display: flex;
       align-items: center;      
@@ -16,6 +16,7 @@
       background-color: hsl(30, 38%, 92%);
     }
 
+    /*All elements Container*/
     main {
       display: flex;
       flex-direction: row;
@@ -23,13 +24,15 @@
       width: 68vh;
       margin-top: 25vh;
       }
-
+    
+    /*Image Container and image*/
     picture img {
       width: 34vh;
       border-radius: 1vh 0vh 0vh 1vh;
       display: flex;
     }
 
+    /*Right Part of the Card*/
     aside {
       background-color: hsl(0, 0%, 100%);
       border-radius: 0vh 1vh 1vh 0vh;
@@ -40,6 +43,7 @@
       width: 34vh;
     }
 
+    /*"p" (perfume) container*/
     header {
       font-family: 'Montserrat', sans-serif;
       font-weight: 600;
@@ -48,6 +52,7 @@
       margin-top: 2vh;
     }
 
+    /*Main Title (Gabrielle Essence Eau De Perfume)*/
     h1 {
       font-family: 'Fraunces', serif;
       font-size: 3.4vh;
@@ -56,6 +61,7 @@
       font-weight: bold;
     }
 
+    /*Secondary Title, Breaf Description of the perfum*/
     h2 {
       font-family: 'Montserrat', sans-serif;
       font-weight: 600;
@@ -64,11 +70,13 @@
       margin-top: -0.3vh;
     }
 
+    /*Prices Containers*/
     section {
       display: flex;
       margin-top: -2.7vh;
     }
 
+    /*Main Price*/
     h3 {
       font-family: 'Fraunces', serif;
       font-style: normal;
@@ -77,6 +85,7 @@
       color: hsl(158, 36%, 37%);
     }
 
+    /*Attached Price*/
     h4 {
       display: flex;
       font-family: 'Montserrat', sans-serif;
@@ -85,7 +94,7 @@
       text-decoration: line-through;
       align-items: center;
     }
-
+    /*Button*/
     button {
       display: flex;
       align-items: center;
@@ -98,6 +107,7 @@
       background-color: hsl(158, 36%, 37%);
     }
 
+    /*Text in Button (Add to Cart)*/
     h5 {
       font-family: 'Montserrat', sans-serif;
       font-weight: 600;
@@ -105,12 +115,14 @@
       font-size: 14px;
     }
 
+    /*Main details of teh last paragraph, out of the box*/
     .attribution { 
       margin-top: 2vh;
       font-size: 11px; 
       text-align: center; 
     }
 
+    /*Linked text*/
     .attribution a { 
     color: hsl(228, 45%, 44%); 
     }
@@ -150,7 +162,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Gaston Ariel Fauret Caceres</a>.
   </div>
 
 </body>
